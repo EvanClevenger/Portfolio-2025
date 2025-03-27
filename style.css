@@ -97,11 +97,13 @@
   overflow: hidden;
 }
 
-.project-button {
+.project-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
   display: flex;
-  width: 50px;
-  height: 50px;
-  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon {
@@ -130,20 +132,18 @@
 }
 
 .project-paragraph {
-  margin-bottom: 3.5rem;
+  margin-bottom: 3.9rem;
 }
 
 .project-img {
   display: flex;
   width: 100%;
-  height: auto;
+  height: 155px;
+  object-fit: cover;
   background-size: 100%;
-  background-position: center top;
-  background-repeat: no-repeat;
   border-radius: 0.8rem;
   border: 1px solid rgba(43, 105, 251, 0.12);
   cursor: pointer;
-  transition: 0.3s ease-in-out;
 }
 
 .project-img {
@@ -162,4 +162,5 @@ h2 {
 h3 {
   font-size: 1.5rem;
   line-height: 1;
+  padding: 10px;
 }

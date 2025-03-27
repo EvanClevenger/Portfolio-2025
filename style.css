@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Andale Mono, monospace";
+  font-family: "Lucida Console";
   line-height: 1.6;
 }
 
@@ -43,9 +43,9 @@
 }
 
 .svg-curve {
-  /* fill: none; */
   width: 100%;
   display: block;
+  fill: rgb(10, 0, 27);
 }
 
 .projects {
